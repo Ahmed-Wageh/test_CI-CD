@@ -5,9 +5,9 @@ exitCode = 0
 print("Testing .........")
 
 if os.system(r"G:\test_CI-CD\a.exe") == 0:
-    print("PASSED\n")
+    print("test PASSED\n")
 else:
     exitCode = 1
-    print("FAILED\n")
+    print("test FAILED\n")
     
 exit(exitCode)
