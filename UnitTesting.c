@@ -11,13 +11,25 @@
 void calcTestAddFuncTest1_Plus_1_test(void)
 {
 	int expected_result = 2;
+	int actual_result;
 	
-	TEST_ASSERT_EQUAL(expected_result, addNumber(1, 1));
+	actual_result = addNumber(1, 1);
+	
+	printf("Test 1 + 1, Expected: %d\tActual = %d\n", expected_result, actual_result);
+	
+	TEST_ASSERT_EQUAL(expected_result, actual_result);
+	
+	
 }
 
 void calcTestAddFuncTest1_Plus_2_test(void)
 {
 	int expected_result = 3;
+	int actual_result;
 	
-	TEST_ASSERT_EQUAL(expected_result, addNumber(1, 2));
+	actual_result = addNumber(1, 2);
+
+	printf("Test 1 + 2, Expected: %d\tActual = %d\n", expected_result, actual_result);
+	
+	TEST_ASSERT_EQUAL(expected_result, actual_result);
 }
