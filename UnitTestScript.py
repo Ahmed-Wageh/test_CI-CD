@@ -4,7 +4,7 @@ exitCode = 0
 
 print("Testing .........")
 
-if os.system(r"G:\test_CI-CD\a.exe") == 0:
+if os.system(r"a.exe") == 0:
     print("test PASSED\n")
 else:
     exitCode = 1
