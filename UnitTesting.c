@@ -22,7 +22,7 @@ void calcTestAddFuncTest1_Plus_1_test(void)
 
 void calcTestAddFuncTest1_Plus_2_test(void)
 {
-	int expected_result = 3;
+	int expected_result = 5;
 	int actual_result;
 	
 	actual_result = addNumber(1, 2);
