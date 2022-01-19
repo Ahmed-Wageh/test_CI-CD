@@ -34,7 +34,7 @@ int main(void)
 {
 	//printf("Test Begins\n");
     UnityBegin("UnityTesting.c");
-	RUN_TEST(calcTestAddFuncTest1_Plus_1_test, 20);
+	RUN_TEST(calcTestAddFuncTest1_Plus_4_test, 20);
 	RUN_TEST(calcTestAddFuncTest1_Plus_2_test, 20);
 	//printf("Test Ends.\n");
 	//getch();
